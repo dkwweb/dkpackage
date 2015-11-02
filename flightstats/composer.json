@@ -1,0 +1,21 @@
+{
+    "name": "dkweb/flightstats",
+    "description": "Getting info From FlightStats",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dkweb",
+            "email": "dk.forweb@gmail.com"
+        }
+    ],
+"autoload": {
+    "classmap": [],
+    "files": [],
+    "psr-4": {
+        "Dkweb\\Flightstats": "src/"
+    }
+},
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}
